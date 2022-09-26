@@ -25,7 +25,8 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
     <div className={styles.comment}>
       <Avatar hasBorder={false}
         src="https://img.freepik.com/premium-photo/funny-cat-sunglasses-cat-with-glasses-light-blue-clean-sunny-background_90380-2753.jpg"
-        alt="Avatar" />
+        alt="Avatar"
+        />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
